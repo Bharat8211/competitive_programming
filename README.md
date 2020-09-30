@@ -1,4 +1,3 @@
-# competitive_programming
 This repo contains solutions of questions from various competitive coding sites.
 Rules-<br />
 1)Add your soultion to the correct folder <br />
