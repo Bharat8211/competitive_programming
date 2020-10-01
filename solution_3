@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   long long n;
+   cin >> n;
+   int a[n];
+   for(int i=0;i<n;i++)
+   {
+
+       cin >> a[i];
+
+   }
+   long long k,sum=0;
+   for(int i=0;i<n;i++)
+   {
+     sum= sum+a[i];
+   }
+   k=((n*(n+1))/2) ;
+   if(k==sum)
+      cout << "YES"<< "\n";
+   else
+      cout << "NO" << "\n";
+
+	return 0;
+}
